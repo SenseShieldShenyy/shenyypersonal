@@ -1,0 +1,6 @@
+fo = open('123.txt')
+ls = fo.readlines()
+st = set(ls)
+print(len(ls))
+print(len(st))
+print(st)
